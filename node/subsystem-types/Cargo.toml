@@ -20,5 +20,5 @@ sp-consensus-babe = { git = "https://github.com/paritytech/substrate", branch = 
 sp-authority-discovery = { git = "https://github.com/paritytech/substrate", branch = "master" }
 smallvec = "1.8.0"
 substrate-prometheus-endpoint = { git = "https://github.com/paritytech/substrate", branch = "master" }
-thiserror = "1.0.31"
+thiserror = "1.0.36"
 async-trait = "0.1.57"

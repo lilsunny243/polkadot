@@ -9,7 +9,7 @@ futures = "0.3.21"
 gum = { package = "tracing-gum", path = "../../gum" }
 parity-scale-codec = "3.1.5"
 kvdb = "0.11.0"
-thiserror = "1.0.31"
+thiserror = "1.0.36"
 lru = "0.7.7"
 fatality = "0.0.6"
 
