@@ -12,7 +12,7 @@ futures = "0.3.21"
 futures-timer = "3.0.2"
 derive_more = "0.99"
 tracing = "0.1.35"
-thiserror = "1.0.31"
+thiserror = "1.0.37"
 crossbeam-queue = "0.3.5"
 nanorand = { version = "0.7.0", default-features = false, features = ["wyrand"] }
 coarsetime = "^0.1.22"
