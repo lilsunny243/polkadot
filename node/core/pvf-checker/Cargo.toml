@@ -6,7 +6,7 @@ edition.workspace = true
 
 [dependencies]
 futures = "0.3.21"
-thiserror = "1.0.31"
+thiserror = "1.0.38"
 gum = { package = "tracing-gum", path = "../../gum" }
 
 polkadot-node-primitives = { path = "../../primitives" }

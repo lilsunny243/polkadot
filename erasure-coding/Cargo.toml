@@ -11,7 +11,7 @@ novelpoly = { package = "reed-solomon-novelpoly", version = "1.0.0" }
 parity-scale-codec = { version = "3.3.0", default-features = false, features = ["std", "derive"] }
 sp-core = { git = "https://github.com/paritytech/substrate", branch = "master" }
 sp-trie = { git = "https://github.com/paritytech/substrate", branch = "master" }
-thiserror = "1.0.31"
+thiserror = "1.0.38"
 
 [dev-dependencies]
 criterion = { version = "0.4.0", default-features = false, features = ["cargo_bench_support"] }
