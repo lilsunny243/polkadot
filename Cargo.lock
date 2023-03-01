@@ -455,6 +455,15 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "ea2b2456fd614d856680dcd9fcc660a51a820fa09daef2e49772b56a193c8474"
 
 [[package]]
+name = "basic-toml"
+version = "0.1.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "2e819b667739967cd44d308b8c7b71305d8bb0729ac44a248aa08f33d01950b4"
+dependencies = [
+ "serde",
+]
+
+[[package]]
 name = "beef"
 version = "0.5.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -12456,10 +12465,11 @@ dependencies = [
 
 [[package]]
 name = "trybuild"
-version = "1.0.75"
+version = "1.0.77"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "f1212c215a87a183687a7cc7065901b1a98da6b37277d51a1b5faedbb4efd4f3"
+checksum = "a44da5a6f2164c8e14d3bbc0657d69c5966af9f5f6930d4f600b1f5c4a673413"
 dependencies = [
+ "basic-toml",
  "dissimilar",
  "glob",
  "once_cell",
@@ -12467,7 +12477,6 @@ dependencies = [
  "serde_derive",
  "serde_json",
  "termcolor",
- "toml",
 ]
 
 [[package]]
